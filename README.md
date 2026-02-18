@@ -3,9 +3,11 @@ DoorDash New Verticals: 3-Sided Marketplace Analysis
 Project Overview: An end-to-end data engineering and business analytics exercise focusing on optimizing the relationship between Consumers, Dashers, and Merchants.
 
 **Executive Summary**
+
 This project analyzes a sample of DoorDash transaction data to transition from a "flat" data structure to a relational database model. By cleaning and normalizing the data, I identified key bottlenecks in the Dasher-Merchant handoff and proposed actionable strategies for market growth.
 
 **Tech Stack**
+
 Database Design: SQL (DDL for schema creation, 1NF/2NF normalization)
 
 Data Wrangling: Python (Pandas)
@@ -15,6 +17,7 @@ Visualizations: R (ggplot2) and PowerBI
 Documentation: Markdown
 
 **Database Architecture**
+
 To eliminate data redundancy and ensure data integrity, I normalized the original dataset into a 3-sided marketplace schema:
 
 Users: Consumer demographics and ordering habits.
